@@ -11,7 +11,7 @@ public class checkbox {
 
 		WebDriver driver =new ChromeDriver();
 
-
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/"); //URL in the browser
 
 		Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 
